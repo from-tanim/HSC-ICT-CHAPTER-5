@@ -3,7 +3,7 @@
 #include<math.h>
 int main()
 { 
-int n;
+int n; 
 printf("Enter the value of the integer:");
 
 scanf("%d",&n);
