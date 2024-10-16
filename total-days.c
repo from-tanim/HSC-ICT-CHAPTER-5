@@ -2,13 +2,15 @@
 #include<stdio.h>
 int main()
 {
-  int numberofdays,totalhours,totalminutes,totalseconds;
+  int days ,numberofdays,totalhours,totalminutes,totalseconds;
 float totalyears,totalweeks;
 printf("Enter the number of days:");
 scanf("%d", &numberofdays);
 //total years//
 totalyears= numberofdays/365;
-printf("The number of years:%f\n",totalyears);
+days=numberofdays-(totalyears*365);
+printf("The number of years:%.2f\t",totalyears);
+printf("days:%d\n",days);
 //total weeks//
 totalweeks= numberofdays/7;
 printf("The number of weeks:%f\n",totalweeks);
