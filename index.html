@@ -5,49 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub C Files</title>
     <style>
-       
-        
         body {
             font-family: Arial, sans-serif;
-            
-            background-color: #B2BEB5; /* Ash color */
-        
             margin: 0;
             padding: 20px;
+            background: linear-gradient(-45deg, #B2BEB5, #FFCCCB, #ADD8E6, #90EE90);
+            background-size: 400% 400%;
+            animation: gradientBackground 15s ease infinite;
         }
+        
+        @keyframes gradientBackground {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
         h1 {
             color: #333;
         }
+
         .file-list {
             list-style-type: none;
             padding: 0;
         }
+
         .file-list li {
-            background-color: #fff;
+            background-color: #000;
             margin-bottom: 10px;
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 5px;
             transition: background-color 0.3s;
         }
+
         .file-list li:hover {
-            background-color: #f0f0f0;
+            background-color: #a4c639;
         }
+
         .file-list a {
             text-decoration: none;
-            color: #0073e6;
+            color: #0073e4;
+        }
+
+        marquee {
+            margin-top: 20px;
         }
     </style>
-   
-        
-   
 </head>
 <body>
 
     <h1>List of C Files in the GitHub Repository</h1>
 
-    <ol type="1" start="1" class="file-list">
-        <li><a href="https://github.com/from-tanim/HSC-ICT-LAN-C/blob/main/Fahrenheit%20_to_Celsius.c" target="_blank">FAHRENHITE TO CELSIUS.c</a></li>
+    <ol class="file-list">
+        <li><a href="https://github.com/from-tanim/HSC-ICT-LAN-C/blob/main/Fahrenheit%20_to_Celsius.c" target="_blank">Fahrenheit to Celsius.c</a></li>
         <li><a href="https://github.com/from-tanim/HSC-ICT-LAN-C/blob/main/Hello_world.c" target="_blank">Hello_world.c</a></li>
         <li><a href="https://github.com/from-tanim/HSC-ICT-LAN-C/blob/main/kmph-to-mph.c" target="_blank">kmph-to-mph.c</a></li>
         <li><a href="https://github.com/from-tanim/HSC-ICT-LAN-C/blob/main/New_line.c" target="_blank">New_line.c</a></li>
@@ -56,22 +66,10 @@
         <li><a href="https://github.com/from-tanim/HSC-ICT-LAN-C/blob/main/multiple_maths.c" target="_blank">multiple_maths.c</a></li>
         <li><a href="https://github.com/from-tanim/HSC-ICT-LAN-C/blob/main/perimeter_area_of_a_rectangle.c" target="_blank">perimeter_area_of_a_rectangle.c</a></li>
         <li><a href="https://github.com/from-tanim/HSC-ICT-LAN-C/blob/main/variable_print.c" target="_blank">variable_print.c</a></li>
-        <li><a href="https://github.com/username/repo-name/blob/main/file2.c" target="_blank">file2.c</a></li>
-        <li><a href="https://github.com/username/repo-name/blob/main/file2.c" target="_blank">file2.c</a></li>
-        <li><a href="https://github.com/username/repo-name/blob/main/file2.c" target="_blank">file2.c</a></li>
-        <li><a href="https://github.com/username/repo-name/blob/main/file2.c" target="_blank">file2.c</a></li>
-        <li><a href="https://github.com/username/repo-name/blob/main/file2.c" target="_blank">file2.c</a></li>
-        <li><a href="https://github.com/username/repo-name/blob/main/file2.c" target="_blank">file2.c</a></li>
-        <li><a href="https://github.com/username/repo-name/blob/main/file2.c" target="_blank">file2.c</a></li>
-                                                                                                            
-
-
-
-
-
-      
-        <!-- Add more C file links here -->
+        <!-- Add more unique C file links here -->
     </ol>
-<marquee width="60%" direction="right" height="100px">T@nim ©</marquee>
+    
+    <marquee width="60%" direction="right" height="100px">T@nim ©</marquee>
+
 </body>
 </html>
